@@ -45,14 +45,12 @@ function searchApi(query) {
      })
      .then(function(geocodeResponse){
      
-        console.log(geocodeResponse.result);
-        locQueryUrl = locQueryUrl + "?lat=" + location.coord[1] + "&lon=" +location.coord[2]+"&appid="+apiKey+"&units=imperial";
+        console.log(geocodeResponse[2]);
+        locQueryUrl = locQueryUrl + "?lat=" + geocodeResponse.result.coord[1] + "&lon=" +geocodeResponse.coord[2]+"&appid="+apiKey+"&units=imperial";
         console.log(locQueryUrl);
      })
          
    
-
-    
   fetch(locQueryUrl)
     .then(function (response) {
       if (!response.ok) {
