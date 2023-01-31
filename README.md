@@ -10,12 +10,12 @@ Use any web browser to access the webpage. If you wish to see the source code, p
 
 ## Usage
 
-To access the webpage, go to https://liguang-lee-zhang.github.io/Module-1-Challenge/. 
+To access the webpage, go to https://liguang-lee-zhang.github.io/Weather-forecast/? 
 
 Image showing deployed webpage:
 
 
-![Alt Deployed webpage](./assets/images/screenshot.png "Deployed Webpage")
+![Alt Deployed webpage](./Assets/images/Screenshot.png "Deployed Webpage")
 
 
 
