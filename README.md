@@ -15,7 +15,7 @@ To access the webpage, go to https://liguang-lee-zhang.github.io/Weather-forecas
 Image showing deployed webpage:
 
 
-![Alt Deployed webpage](./assets/images/Screenshot.png "Deployed Webpage")
+![Alt Deployed webpage](./Assets/images/Screenshot.png "Deployed Webpage")
 
 
 
