@@ -34,7 +34,7 @@ function printCurResults(resultObj) {
   let weatherIcon = resultObj.weather[0].icon;
   // let weatherIcon = weather.icon;
   console.log(weatherIcon);
-  imgEl.setAttribute("src", "http://openweathermap.org/img/wn/" + weatherIcon + ".png");
+  imgEl.setAttribute("src", "https://openweathermap.org/img/wn/" + weatherIcon + ".png");
 
 
 
@@ -64,7 +64,7 @@ function printCurResults(resultObj) {
 
 
 function searchGeoApi(query) {
-  let geocodingUrl = 'http://api.openweathermap.org/geo/1.0/direct';
+  let geocodingUrl = 'https://api.openweathermap.org/geo/1.0/direct';
   let locQueryUrl = "https://api.openweathermap.org/data/2.5/weather";
   let fiveDayUrl = "https://api.openweathermap.org/data/2.5/forecast";
 
@@ -162,7 +162,7 @@ function printFDayResults(FDayresultObj) {
     let imgEl = document.createElement('img');
     let weatherIcon = FDayresultObj.list[i].weather[0].icon;
     // console.log(weatherIcon);
-    imgEl.setAttribute("src", "http://openweathermap.org/img/wn/" + weatherIcon + ".png");
+    imgEl.setAttribute("src", "https://openweathermap.org/img/wn/" + weatherIcon + ".png");
 
 
     var bodyContentEl = document.createElement('p');
